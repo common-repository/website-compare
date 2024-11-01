@@ -1,0 +1,86 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .plgn-cmpr-comp-table .item-negative{
+    background-color: rgba(255, 20, 147, 0.2) !important;
+ }
+
+ .plgn-cmpr-comp-table .item-positive{
+    background-color: rgba(20, 255, 71, 0.2) !important;
+ }
+
+
+
+ .plgn-cmpr-comp-table td.active-negative{
+    background-color: rgba(255, 20, 147, 0.2) !important;
+ }
+ .plgn-cmpr-comp-table td.active-negative::after{
+    content:"-"
+ }
+
+ .plgn-cmpr-comp-table td.active-positive{
+    background-color: rgba(20, 255, 71, 0.2) !important;
+ }
+ .plgn-cmpr-comp-table td.active-positive::after{
+    content:"+";
+ }
+
+
+ .plgn-cmpr-comp-table td.version-negative{
+    background-color: rgba(255, 20, 147, 0.2) !important;
+ }
+ .plgn-cmpr-comp-table td.version-negative::before{
+    content:"-"
+ }
+
+ .plgn-cmpr-comp-table td.version-positive{
+    background-color: rgba(20, 255, 71, 0.2) !important;
+ }
+ .plgn-cmpr-comp-table td.version-positive::before{
+    content:"+";
+ }
+
+/*
+
+ .plgn-cmpr-comp-table td.active-negative{
+    background-color: rgba(238, 141, 14, 0.2) !important;
+ }
+
+ .plgn-cmpr-comp-table td.active-positive{
+    background-color: rgba(20, 130, 255, 0.2) !important;
+ }
+
+ .plgn-cmpr-comp-table td.version-negative{
+    background-color: rgba(238, 141, 14, 0.2) !important;
+ }
+
+ .plgn-cmpr-comp-table td.version-positive{
+    background-color: rgba(20, 130, 255, 0.2) !important;
+ } */
+
+.plcmpr-site-title{
+   text-align: center;
+   margin: 0;
+}
+
+.plcmpr-env-ind{
+   border-radius: 5px;
+   padding: 2px 8px;
+   display: inline-block;
+   color: white;
+}
+
+.plcmpr-env-ind--local{
+   background-color: #A7C7E7;
+}
+.plcmpr-env-ind--dev{
+   background-color: #9ADBB3;
+}
+.plcmpr-env-ind--test{
+   background-color: #FFC300;
+}
+.plcmpr-env-ind--prod{
+   background-color: #FF5733;
+}
